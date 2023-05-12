@@ -27,14 +27,14 @@ body{
 
 /* загальні стилі */
 
-.section {
-    outline: solid 3px green;
+ .section {
+    /* outline: solid 3px green; */
 
     padding-bottom: 94px;
     padding-top: 94px;
-}
+} 
 
-.container {
+ .container {
     outline: solid 3px red;
     
     width: 1200px;
@@ -42,7 +42,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+ }
 
 a {
     text-decoration: none;
@@ -61,6 +61,16 @@ li{
 }
 
 /* header */
+
+.container.header{
+    display: flex;
+}
+
+.container.header nav{
+    display: flex;
+    outline: solid 3px red;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -72,6 +82,12 @@ li{
 
 .logo > span {
     color: var(--logo-color);
+}
+
+.nav-list{
+    display: flex;
+
+    margin-left: 93px;
 }
 
 .nav-link,.contacts-link{
@@ -90,6 +106,13 @@ li{
 .contacts-link:hover,
 .contacts-link:focus{
    color: var(--accent-color);
+}
+
+.contacts-list{
+    display: flex;
+    outline: solid 3px red;
+
+    margin-left: auto;
 }
 
 .contacts-link{
@@ -128,6 +151,15 @@ h1{
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
+}
+/* Чим ми займаємось */
+
+.what-we-do{
+    display: flex;
+}
+
+.what-we-do img{
+    width: 270px;
 }
 
 .text{
