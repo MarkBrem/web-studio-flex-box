@@ -275,6 +275,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* .members-list{
+        width: 270px;
+        height: 260px;
+    } */
+
+    .members-img{
+        width: 270px;
+    }
     /* футер */
     .footer {
         background-color: var(--hero-background-color);
