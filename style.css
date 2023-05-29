@@ -269,6 +269,12 @@
         color: var(--secondary-text-color);
     }
 
+    .members{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
     /* футер */
     .footer {
         background-color: var(--hero-background-color);
