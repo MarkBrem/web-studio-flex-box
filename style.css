@@ -225,6 +225,8 @@
     }
 
     /* Наша команда */
+
+    
     .section-photos {
         padding-top: 94px;
         padding-bottom: 94px;
@@ -250,7 +252,13 @@
         margin-bottom: 10px;
     }
 
-   /* .posision {
+    .job{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    /* .posision {
         box-shadow: #000;
         display: flex;
         font-weight: 400;
@@ -265,18 +273,26 @@
         justify-content: space-evenly;
         align-items: flex-start;
         color: var(--secondary-text-color);
-     }  */
+     }   */
+
+ .members-list{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 15px;  
+} 
 
     .members{
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         justify-content: center;
         align-items: center;
+        margin: 15px;
     }
 
-     
+    .section.our-teame{
+        background-color: #F5F4FA; 
+    } 
 
     .members-img{
         width: 270px;
@@ -297,6 +313,14 @@
             line-height: 24px;
 
             color: var(--background-color);
+        }
+
+.footer .contacts-list{
+    display: block;
+}
+
+        .footer .contacts-item:not(:first-child){
+            margin-left: 0;
         }
 
         .footer .contacts-link {
@@ -355,10 +379,10 @@
             background-color: #F5F4FA;
             border: none;
             padding: 6px 22px;
+            margin-bottom: 50px;
              font-weight: 500;
                 font-size: 16px;
                 line-height: 26px;
-                /* identical to box height, or 162% */
             
                 text-align: center;
                 letter-spacing: 0.03em; 
