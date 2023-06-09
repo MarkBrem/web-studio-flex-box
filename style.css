@@ -137,7 +137,7 @@
     .hero {
         padding-top: 200px;
         padding-bottom: 200px;
-        background-color: var(--hero-background-color);
+        background:url(./зображення/Img\ Overlay.png), rgba(47, 48, 58, 0.4);
     }
 
     .hero .container {
@@ -185,8 +185,60 @@
     }
 
     .advantages .item {
-        width: 270px;
+        width: 270px; 
     }
+
+    .item.antenna::before{
+        content: '';
+        display: block;
+        width: 270px;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        background-image: url(./зображення/antenna\ 1.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .item.clock::before{
+        content: '';
+            display: block;
+            width: 270px;
+            height: 120px;
+            background-color: #F5F4FA;
+            border-radius: 4px;
+            background-image: url(./зображення/clock\ 1.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+    }
+
+         .item.diagram::before {
+             content: '';
+             display: block;
+             width: 270px;
+             height: 120px;
+             background-color: #F5F4FA;
+             border-radius: 4px;
+             background-image: url(./зображення/diagram\ 1.png);
+             background-position: center;
+             background-size: contain;
+             background-repeat: no-repeat;
+         }
+
+         .item.astronaut::before {
+             content: '';
+             display: block;
+             width: 270px;
+             height: 120px;
+             background-color: #F5F4FA;
+             border-radius: 4px;
+             background-image: url(./зображення/Group.png);
+             background-position: center;
+             background-size: contain;
+             background-repeat: no-repeat;
+         }
 
     .advantages .title,
     .advantages .text {
